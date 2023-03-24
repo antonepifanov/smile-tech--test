@@ -1,0 +1,16 @@
+.title {
+  margin: 0;
+  font-weight: 700;
+
+  &--h2 {
+    font-size: 70px;
+    line-height: 85px;
+    color: $color-free-speech-blue;
+    max-width: 742px;
+
+    @include vp-1023 {
+      font-size: 34px;
+      line-height: 39px;
+    }
+  }
+}
