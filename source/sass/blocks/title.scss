@@ -13,4 +13,14 @@
       line-height: 39px;
     }
   }
+
+  &--h3 {
+    font-size: 50px;
+    line-height: 61px;
+
+    @include vp-1023 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
 }

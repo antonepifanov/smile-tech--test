@@ -28,11 +28,15 @@ export default class Accordions {
     evt.preventDefault();
 
     const element = target.closest('[data-accordion="element"]');
+    const currentElement = parent.querySelector('.is-active');
     if (element.classList.contains('is-active')) {
       this.closeAccordion(element);
       return;
     }
     this.openAccordion(element);
+    if (currentElement) {
+      this.closeAccordion(currentElement);
+    }
   }
 
   _windowResizeHandler() {

@@ -1,4 +1,4 @@
-export class Tabs {
+export default class Tabs {
   constructor(selector, options) {
     let defaultOptions = {
       isChanged: () => {}
@@ -40,7 +40,6 @@ export class Tabs {
 
     this.tabsBtns.forEach((el, i) => {
       el.setAttribute('role', 'tab');
-      el.setAttribute('tabindex', '-1');
       el.setAttribute('id', `${this.selector}${i + 1}`);
       el.classList.remove(this.activeButtonClass);
     });

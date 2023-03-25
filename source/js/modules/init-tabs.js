@@ -1,8 +1,8 @@
-import {Tabs} from '../vendor/tabs';
+import Tabs from '../vendor/tabs';
 
 export const getThemesTabs = () => {
-  return new Tabs('subscriptions', {
-    activeButtonClass: 'subscriptions__button--active',
-    activePanelClass: 'subscriptions__list--active',
+  return new Tabs('questions', {
+    activeButtonClass: 'quections__nav-button--active',
+    activePanelClass: 'quections__content-item--active',
   });
 };
