@@ -6,7 +6,7 @@
 
 .answers__item {
   border-top: 1px solid $color-free-speech-blue;
-  padding: 23px 20px;
+  padding: 23px 26px;
 
   @include vp-1023 {
     padding: 20px 0;
@@ -14,12 +14,7 @@
 
   &.is-active {
     .answers__item-button {
-      background-color: $color-default-white;
-      border: 1px solid $color-free-speech-blue;
-
       &::before {
-        border-left: 1px solid $color-free-speech-blue;
-        border-bottom: 1px solid $color-free-speech-blue;
         transform: rotate(135deg);
         bottom: -3px;
       }
@@ -50,22 +45,24 @@
   padding: 0;
   flex-shrink: 0;
   align-self: flex-start;
-  transition: background-color $trans-default, border $trans-default, opacity $trans-default;
+  transition: opacity $trans-default;
   margin-left: 25px;
 
   @include vp-1023 {
     position: relative;
-    top: 3px;
+    top: 6px;
     width: 30px;
     height: 30px;
   }
 
-  &:hover {
-    opacity: 0.7;
-  }
+  @media (hover: hover), screen and (min-width: 0\0) {
+    &:hover {
+      opacity: 0.7;
+    }
 
-  &:focus-visible {
-    opacity: 0.7;
+    &:focus-visible {
+      opacity: 0.7;
+    }
   }
 
   &::before {
@@ -77,7 +74,7 @@
     border-left: 1px solid $color-default-white;
     border-bottom: 1px solid $color-default-white;
     transform: rotate(-45deg);
-    transition: border-color $trans-default, transform $trans-default, bottom $trans-default;
+    transition: transform $trans-default, bottom $trans-default;
   }
 }
 
@@ -138,11 +135,13 @@
   font-weight: 600;
   transition: opacity $trans-default;
 
-  &:hover {
-    opacity: 0.7;
-  }
+  @media (hover: hover), screen and (min-width: 0\0) {
+    &:hover {
+      opacity: 0.7;
+    }
 
-  &:focus-visible {
-    opacity: 0.7;
+    &:focus-visible {
+      opacity: 0.7;
+    }
   }
 }

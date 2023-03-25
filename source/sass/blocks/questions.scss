@@ -8,7 +8,7 @@
 
 .questions__note {
   margin: 0;
-  margin-bottom: 47px;
+  margin-bottom: 45px;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -82,13 +82,15 @@
     padding: 11px;
   }
 
-  &:hover {
-    opacity: 0.7;
-  }
+  @media (hover: hover), screen and (min-width: 0\0) {
+    &:hover {
+      opacity: 0.7;
+    }
 
-  &:focus-visible {
-    background-color: $color-solitude;
-    color: $color-midnight-express;
+    &:focus-visible {
+      background-color: $color-solitude;
+      color: $color-midnight-express;
+    }
   }
 
   svg {
@@ -177,13 +179,15 @@
     line-height: 20px;
   }
 
-  &:hover {
-    background-color: $color-free-speech-blue;
-    color: $color-default-white;
-  }
+  @media (hover: hover), screen and (min-width: 0\0) {
+    &:hover {
+      background-color: $color-free-speech-blue;
+      color: $color-default-white;
+    }
 
-  &:focus-visible {
-    background-color: $color-free-speech-blue;
-    color: $color-default-white;
+    &:focus-visible {
+      background-color: $color-free-speech-blue;
+      color: $color-default-white;
+    }
   }
 }

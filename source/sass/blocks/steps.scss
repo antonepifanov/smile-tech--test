@@ -90,13 +90,13 @@
     width: 100%;
     height: 2px;
     right: 0;
-    top: calc(50px / 2);
+    top: calc(51px / 2);
     background-color: $color-free-speech-blue;
 
     @include vp-767 {
       width: 2px;
       height: 100%;
-      left: calc(50px / 2);
+      left: calc(47px / 2);
       top: 0;
       right: unset;
     }

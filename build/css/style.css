@@ -607,14 +607,6 @@ button,
   flex-grow: 1;
 }
 
-.rouble {
-  font-family: "Rouble", "Arial", sans-serif;
-  /* stylelint-disable */
-  text-transform: lowercase !important;
-  font-weight: 400 !important;
-  /* stylelint-enable */
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -679,7 +671,7 @@ button,
 }
 
 .career {
-  padding: 150px 0;
+  padding: 153px 0;
 }
 
 .career__steps {
@@ -758,7 +750,7 @@ button,
   width: 100%;
   height: 2px;
   right: 0;
-  top: calc(50px / 2);
+  top: calc(51px / 2);
   background-color: #3052D8;
 }
 
@@ -780,7 +772,7 @@ button,
 
 .questions__note {
   margin: 0;
-  margin-bottom: 47px;
+  margin-bottom: 45px;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -831,15 +823,6 @@ button,
   transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
-.quections__nav-button:hover {
-  opacity: 0.7;
-}
-
-.quections__nav-button:focus-visible {
-  background-color: #E1E8F8;
-  color: #08113F;
-}
-
 .quections__nav-button svg {
   margin-bottom: 10px;
 }
@@ -884,16 +867,6 @@ button,
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.quections__link:hover {
-  background-color: #3052D8;
-  color: #ffffff;
-}
-
-.quections__link:focus-visible {
-  background-color: #3052D8;
-  color: #ffffff;
-}
-
 .answers {
   margin: 0;
   padding: 0;
@@ -902,17 +875,10 @@ button,
 
 .answers__item {
   border-top: 1px solid #3052D8;
-  padding: 23px 20px;
-}
-
-.answers__item.is-active .answers__item-button {
-  background-color: #ffffff;
-  border: 1px solid #3052D8;
+  padding: 23px 26px;
 }
 
 .answers__item.is-active .answers__item-button::before {
-  border-left: 1px solid #3052D8;
-  border-bottom: 1px solid #3052D8;
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
@@ -946,18 +912,10 @@ button,
   -ms-flex-negative: 0;
   flex-shrink: 0;
   align-self: flex-start;
-  -webkit-transition: background-color 0.3s ease, border 0.3s ease, opacity 0.3s ease;
-  -o-transition: background-color 0.3s ease, border 0.3s ease, opacity 0.3s ease;
-  transition: background-color 0.3s ease, border 0.3s ease, opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
   margin-left: 25px;
-}
-
-.answers__item-button:hover {
-  opacity: 0.7;
-}
-
-.answers__item-button:focus-visible {
-  opacity: 0.7;
 }
 
 .answers__item-button::before {
@@ -971,11 +929,11 @@ button,
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  -webkit-transition: border-color 0.3s ease, bottom 0.3s ease, -webkit-transform 0.3s ease;
-  transition: border-color 0.3s ease, bottom 0.3s ease, -webkit-transform 0.3s ease;
-  -o-transition: border-color 0.3s ease, transform 0.3s ease, bottom 0.3s ease;
-  transition: border-color 0.3s ease, transform 0.3s ease, bottom 0.3s ease;
-  transition: border-color 0.3s ease, transform 0.3s ease, bottom 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transition: bottom 0.3s ease, -webkit-transform 0.3s ease;
+  transition: bottom 0.3s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, bottom 0.3s ease;
+  transition: transform 0.3s ease, bottom 0.3s ease;
+  transition: transform 0.3s ease, bottom 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .answewrs__description {
@@ -1027,12 +985,41 @@ button,
   transition: opacity 0.3s ease;
 }
 
-.answers__description-link:hover {
-  opacity: 0.7;
-}
+@media (hover: hover), screen and (min-width: 0\0) {
+  .quections__nav-button:hover {
+    opacity: 0.7;
+  }
 
-.answers__description-link:focus-visible {
-  opacity: 0.7;
+  .quections__nav-button:focus-visible {
+    background-color: #E1E8F8;
+    color: #08113F;
+  }
+
+  .quections__link:hover {
+    background-color: #3052D8;
+    color: #ffffff;
+  }
+
+  .quections__link:focus-visible {
+    background-color: #3052D8;
+    color: #ffffff;
+  }
+
+  .answers__item-button:hover {
+    opacity: 0.7;
+  }
+
+  .answers__item-button:focus-visible {
+    opacity: 0.7;
+  }
+
+  .answers__description-link:hover {
+    opacity: 0.7;
+  }
+
+  .answers__description-link:focus-visible {
+    opacity: 0.7;
+  }
 }
 
 @media (max-width: 1439px) {
@@ -1150,7 +1137,7 @@ button,
 
   .answers__item-button {
     position: relative;
-    top: 3px;
+    top: 6px;
     width: 30px;
     height: 30px;
   }
@@ -1206,7 +1193,7 @@ button,
   .steps__item::after {
     width: 2px;
     height: 100%;
-    left: calc(50px / 2);
+    left: calc(47px / 2);
     top: 0;
     right: unset;
   }
