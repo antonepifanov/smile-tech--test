@@ -936,7 +936,7 @@ button,
   transition: transform 0.3s ease, bottom 0.3s ease, -webkit-transform 0.3s ease;
 }
 
-.answewrs__description {
+.answers__description {
   margin: 0;
   width: 83%;
 }
@@ -1142,7 +1142,7 @@ button,
     height: 30px;
   }
 
-  .answewrs__description {
+  .answers__description {
     width: 100%;
     font-size: 19px;
     line-height: 24px;
