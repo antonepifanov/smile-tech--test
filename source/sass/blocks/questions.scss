@@ -1,4 +1,4 @@
-.quections__title {
+.questions__title {
   margin-bottom: 60px;
 
   @include vp-1023 {
@@ -20,7 +20,7 @@
   }
 }
 
-.quections__nav {
+.questions__nav {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@
   }
 }
 
-.quections__nav-item {
+.questions__nav-item {
   flex-basis: 209px;
   min-height: 152px;
   flex-shrink: 0;
@@ -60,7 +60,7 @@
   }
 }
 
-.quections__nav-button {
+.questions__nav-button {
   width: 100%;
   background-color: $color-free-speech-blue;
   border: none;
@@ -133,7 +133,7 @@
   }
 }
 
-.quections__content {
+.questions__content {
   margin-bottom: 64px;
 
   @include vp-1023 {
@@ -149,7 +149,7 @@
   }
 }
 
-.quections__content-item {
+.questions__content-item {
   display: none;
 
   &--active {
@@ -157,7 +157,7 @@
   }
 }
 
-.quections__link {
+.questions__link {
   display: block;
   width: fit-content;
   margin: 0 auto;

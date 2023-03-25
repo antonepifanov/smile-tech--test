@@ -766,7 +766,7 @@ button,
   display: none;
 }
 
-.quections__title {
+.questions__title {
   margin-bottom: 60px;
 }
 
@@ -778,7 +778,7 @@ button,
   line-height: 42px;
 }
 
-.quections__nav {
+.questions__nav {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -789,7 +789,7 @@ button,
   margin-bottom: 130px;
 }
 
-.quections__nav-item {
+.questions__nav-item {
   -ms-flex-preferred-size: 209px;
   flex-basis: 209px;
   min-height: 152px;
@@ -797,7 +797,7 @@ button,
   flex-shrink: 0;
 }
 
-.quections__nav-button {
+.questions__nav-button {
   width: 100%;
   background-color: #3052D8;
   border: none;
@@ -823,17 +823,17 @@ button,
   transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
 
-.quections__nav-button svg {
+.questions__nav-button svg {
   margin-bottom: 10px;
 }
 
-.quections__nav-button--active {
+.questions__nav-button--active {
   background-color: #E1E8F8;
   color: #08113F;
   pointer-events: none;
 }
 
-.quections__content {
+.questions__content {
   margin-bottom: 64px;
 }
 
@@ -841,15 +841,15 @@ button,
   margin-bottom: 42px;
 }
 
-.quections__content-item {
+.questions__content-item {
   display: none;
 }
 
-.quections__content-item--active {
+.questions__content-item--active {
   display: block;
 }
 
-.quections__link {
+.questions__link {
   display: block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -986,21 +986,21 @@ button,
 }
 
 @media (hover: hover), screen and (min-width: 0\0) {
-  .quections__nav-button:hover {
+  .questions__nav-button:hover {
     opacity: 0.7;
   }
 
-  .quections__nav-button:focus-visible {
+  .questions__nav-button:focus-visible {
     background-color: #E1E8F8;
     color: #08113F;
   }
 
-  .quections__link:hover {
+  .questions__link:hover {
     background-color: #3052D8;
     color: #ffffff;
   }
 
-  .quections__link:focus-visible {
+  .questions__link:focus-visible {
     background-color: #3052D8;
     color: #ffffff;
   }
@@ -1028,7 +1028,7 @@ button,
     max-width: 22%;
   }
 
-  .quections__nav {
+  .questions__nav {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (calc((100% - 26px) / 3))[3];
@@ -1068,7 +1068,7 @@ button,
     line-height: 24px;
   }
 
-  .quections__title {
+  .questions__title {
     margin-bottom: 40px;
   }
 
@@ -1078,39 +1078,39 @@ button,
     line-height: 30px;
   }
 
-  .quections__nav {
+  .questions__nav {
     margin-bottom: 40px;
     gap: 10px;
   }
 
-  .quections__nav-item {
+  .questions__nav-item {
     min-height: 115px;
   }
 
-  .quections__nav-button {
+  .questions__nav-button {
     font-size: 16px;
     line-height: 21px;
     padding: 11px;
   }
 
-  .quections__nav-button svg {
+  .questions__nav-button svg {
     width: 40px;
     height: 40px;
   }
 
-  .quections__nav-button--requests svg {
+  .questions__nav-button--requests svg {
     width: 43px;
   }
 
-  .quections__nav-button--employment svg {
+  .questions__nav-button--employment svg {
     width: 44px;
   }
 
-  .quections__nav-button--cooperation svg {
+  .questions__nav-button--cooperation svg {
     width: 48px;
   }
 
-  .quections__content {
+  .questions__content {
     margin-bottom: 38px;
   }
 
@@ -1118,7 +1118,7 @@ button,
     margin-bottom: 20px;
   }
 
-  .quections__link {
+  .questions__link {
     padding: 15px 0;
     width: 270px;
     text-align: center;
@@ -1227,7 +1227,7 @@ button,
     margin-right: 5px;
   }
 
-  .quections__nav {
+  .questions__nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1236,7 +1236,7 @@ button,
     overflow-x: auto;
   }
 
-  .quections__nav-item {
+  .questions__nav-item {
     -ms-flex-preferred-size: 158px;
     flex-basis: 158px;
   }
